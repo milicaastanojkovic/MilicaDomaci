@@ -1,0 +1,241 @@
+.top {
+    font-family: Segoe UI, sans-serif;
+    font-size: 18px;
+    margin: 25px;
+    width: 1455px;
+    height: 180px;
+    background-color: #788f58;
+    padding-top: 25px;
+    
+} 
+
+.levo{
+    float: left;
+    text-align: right;
+    width: 47%;
+}
+
+.desno{
+    float: right;
+    text-align: left;
+    width: 47%;
+}
+
+.progress1{
+    position: relative;
+    width:150px;
+    height:20px;
+    background-color: #bfbdbd;
+    overflow: hidden;
+    margin: 10px 550px 20px;
+}
+
+.progress__fill1{
+    width:25%;
+    height: 100%;
+    background-color: #788f58;
+}
+
+.progress__text1{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    left: 50px;
+}
+
+.progress2{
+    position: relative;
+    width:150px;
+    height:20px;
+    background-color: #bfbdbd;
+    overflow: hidden;
+    margin: 10px 550px 20px;
+}
+
+.progress__fill2{
+    width:25%;
+    height: 100%;
+    background-color: #788f58;
+}
+
+.progress__text2{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    left: 50px;
+}
+
+.progress3{
+    position: relative;
+    width:150px;
+    height:20px;
+    background-color: #bfbdbd;
+    overflow: hidden;
+    margin: 10px 550px 20px;
+}
+
+.progress__fill3{
+    width:25%;
+    height: 100%;
+    background-color: #788f58;
+}
+
+.progress__text3{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    left: 50px;
+}
+
+.progress4{
+    position: relative;
+    width:150px;
+    height:20px;
+    background-color: #bfbdbd;
+    overflow: hidden;
+    margin: 10px 550px 20px;
+}
+
+.progress__fill4{
+    width:25%;
+    height: 100%;
+    background-color: #788f58;
+}
+
+.progress__text4{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    left: 50px;
+}
+
+.progress5{
+    position: relative;
+    width:150px;
+    height:20px;
+    background-color: #bfbdbd;
+    overflow: hidden;
+    margin: 10px 550px 20px;
+}
+
+.progress__fill5{
+    width:25%;
+    height: 100%;
+    background-color: #788f58;
+}
+
+.progress__text5{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    left: 50px;
+}
+
+.tekst_progressbar{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.linija{
+    width: 1px;
+    height: 560px;
+    background-color: #999999;
+    margin: auto;
+}
+
+.crta1{
+    position: absolute;
+    width: 40px;
+    height: 1px;
+    background-color: #999999;
+    top: 284px;
+    left:740px;
+}
+
+.crta2{
+    position: absolute;
+    width: 40px;
+    height: 1px;
+    background-color: #999999;
+    top: 406px;
+    left:740px;
+}
+
+.crta3{
+    position: absolute;
+    width: 20px;
+    height: 1px;
+    background-color: #999999;
+    top: 555px;
+    left:740px;
+}
+
+.crta4{
+    position: absolute;
+    width: 20px;
+    height: 1px;
+    background-color: #999999;
+    top: 610px;
+    left:760px;
+}
+
+.krug1{
+    position: absolute;
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    background-color: #788f58;
+    top: 280px;
+    left:755px; 
+}
+
+.krug2{
+    position: absolute;
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    background-color: #788f58;
+    top: 402px;
+    left:755px; 
+}
+
+.krug3{
+    position: absolute;
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    background-color: #788f58;
+    top: 551px;
+    left:755px; 
+}
+
+.krug4{
+    position: absolute;
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    background-color: #788f58;
+    top: 606px;
+    left:755px; 
+}
+
+h1{
+
+    text-align: center;
+    color: white
+}
+
+h2{
+    text-align: center;
+    color: white
+}
+
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+li{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
