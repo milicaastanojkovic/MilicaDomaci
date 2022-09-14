@@ -1,241 +1,205 @@
 .top {
-    font-family: Segoe UI, sans-serif;
-    font-size: 18px;
-    margin: 25px;
-    width: 1455px;
-    height: 180px;
+   /* font-family: Segoe UI, sans-serif;
+    font-size: 110%;*/
+    margin: 22px;
+    margin-top: -17px;
+    margin-left: -17px;
+    width: 737px;
+    height: 127px;
     background-color: #788f58;
-    padding-top: 25px;
-    
+    padding-top: 6px;
+    padding-left: 15px;
+    text-align: center;
+    color: white
 } 
 
-.levo{
+.left{
     float: left;
     text-align: right;
-    width: 47%;
+    width: 45%;
 }
 
-.desno{
+.right{
     float: right;
     text-align: left;
-    width: 47%;
+    width: 45%;
 }
 
-.progress1{
-    position: relative;
-    width:150px;
-    height:20px;
-    background-color: #bfbdbd;
-    overflow: hidden;
-    margin: 10px 550px 20px;
-}
-
-.progress__fill1{
-    width:25%;
-    height: 100%;
-    background-color: #788f58;
-}
-
-.progress__text1{
-    position: absolute;
-    top: 0;
-    right: 5px;
-    left: 50px;
-}
-
-.progress2{
-    position: relative;
-    width:150px;
-    height:20px;
-    background-color: #bfbdbd;
-    overflow: hidden;
-    margin: 10px 550px 20px;
-}
-
-.progress__fill2{
-    width:25%;
-    height: 100%;
-    background-color: #788f58;
-}
-
-.progress__text2{
-    position: absolute;
-    top: 0;
-    right: 5px;
-    left: 50px;
-}
-
-.progress3{
-    position: relative;
-    width:150px;
-    height:20px;
-    background-color: #bfbdbd;
-    overflow: hidden;
-    margin: 10px 550px 20px;
-}
-
-.progress__fill3{
-    width:25%;
-    height: 100%;
-    background-color: #788f58;
-}
-
-.progress__text3{
-    position: absolute;
-    top: 0;
-    right: 5px;
-    left: 50px;
-}
-
-.progress4{
-    position: relative;
-    width:150px;
-    height:20px;
-    background-color: #bfbdbd;
-    overflow: hidden;
-    margin: 10px 550px 20px;
-}
-
-.progress__fill4{
-    width:25%;
-    height: 100%;
-    background-color: #788f58;
-}
-
-.progress__text4{
-    position: absolute;
-    top: 0;
-    right: 5px;
-    left: 50px;
-}
-
-.progress5{
-    position: relative;
-    width:150px;
-    height:20px;
-    background-color: #bfbdbd;
-    overflow: hidden;
-    margin: 10px 550px 20px;
-}
-
-.progress__fill5{
-    width:25%;
-    height: 100%;
-    background-color: #788f58;
-}
-
-.progress__text5{
-    position: absolute;
-    top: 0;
-    right: 5px;
-    left: 50px;
-}
-
-.tekst_progressbar{
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
-    align-items: baseline;
-}
-
-.linija{
+.vert_line{
     width: 1px;
-    height: 560px;
+    height: 880px;
     background-color: #999999;
     margin: auto;
 }
 
-.crta1{
+.line1{
     position: absolute;
     width: 40px;
     height: 1px;
     background-color: #999999;
-    top: 284px;
-    left:740px;
+    top: 204px;
+    left:376px;
 }
 
-.crta2{
-    position: absolute;
-    width: 40px;
-    height: 1px;
-    background-color: #999999;
-    top: 406px;
-    left:740px;
-}
-
-.crta3{
+.line2{
     position: absolute;
     width: 20px;
     height: 1px;
     background-color: #999999;
-    top: 555px;
-    left:740px;
+    top: 348px;
+    left:397px;
 }
 
-.crta4{
+.line3{
     position: absolute;
     width: 20px;
     height: 1px;
     background-color: #999999;
-    top: 610px;
-    left:760px;
+    top: 390px;
+    left:377px;
 }
 
-.krug1{
+.line4{
+    position: absolute;
+    width: 20px;
+    height: 1px;
+    background-color: #999999;
+    top: 554px;
+    left:377px;
+}
+
+.line5{
+    position: absolute;
+    width: 20px;
+    height: 1px;
+    background-color: #999999;
+    top: 613px;
+    left:397px;
+}
+
+.line6{
+    position: absolute;
+    width: 20px;
+    height: 1px;
+    background-color: #999999;
+    top: 879px;
+    left:377px;
+}
+
+.dot1{
     position: absolute;
     width:10px;
     height:10px;
     border-radius: 50%;
     background-color: #788f58;
-    top: 280px;
-    left:755px; 
+    top: 200px;
+    left:392px; 
 }
 
-.krug2{
+.dot2{
     position: absolute;
     width:10px;
     height:10px;
     border-radius: 50%;
     background-color: #788f58;
-    top: 402px;
-    left:755px; 
+    top: 344px;
+    left:392px; 
 }
 
-.krug3{
+.dot3{
     position: absolute;
     width:10px;
     height:10px;
     border-radius: 50%;
     background-color: #788f58;
-    top: 551px;
-    left:755px; 
+    top: 386px;
+    left:392px; 
 }
 
-.krug4{
+.dot4{
     position: absolute;
     width:10px;
     height:10px;
     border-radius: 50%;
     background-color: #788f58;
-    top: 606px;
-    left:755px; 
+    top: 550px;
+    left:392px; 
 }
 
-h1{
-
-    text-align: center;
-    color: white
+.dot5{
+    position: absolute;
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    background-color: #788f58;
+    top: 609px;
+    left:392px; 
 }
 
-h2{
-    text-align: center;
-    color: white
+.dot6{
+    position: absolute;
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    background-color: #788f58;
+    top: 875px;
+    left:392px; 
 }
 
 p{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 li{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ a:link {
+    color: black;
+    text-decoration:none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: black;
+    text-decoration:underline;
+}
+
+a:active {
+    color: rgb(255, 105, 138);
+}
+
+/* For Chrome or Safari */
+progress::-webkit-progress-bar {
+    background-color: #eeeeee;
+}
+
+progress::-webkit-progress-value {
+    background-color: #788f58 !important;
+}
+
+
+/* For Firefox */
+progress {
+    background-color: #eee;
+}
+
+progress::-moz-progress-bar {
+    background-color: #788f58 !important;
+}
+
+/* For IE10 */
+progress {
+    background-color: #eee;
+}
+
+progress {
+    background-color: #788f58 !important;
+}
+
+@media screen and (max-width: 600px){
+
 }
